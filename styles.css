@@ -1,0 +1,95 @@
+/* Reset default margins and paddings */
+body, h1, h2, form, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body background and font */
+body {
+    background: #00416A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFE000, #799F0C, #00416A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFE000, #799F0C, #00416A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    font-family: Arial, sans-serif;
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+/* Container for the form */
+.container {
+   
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(48, 49, 30, 0.426);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+/* Form input fields and button */
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    
+}
+
+form input[type="text"],
+form input[type="email"],
+form select {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: transparent;
+
+}
+
+form select {
+    height: 35px;
+}
+
+form button {
+    background-color: #4caf4fa3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* User info display */
+.user-info {
+    color: rgb(187, 192, 175);
+    background-color: #192d1388;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading for user info */
+.user-heading {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+/* User property labels */
+.user-property {
+    font-weight: bold;
+}
+
+/* Spacing between user properties */
+.user-property:not(:last-child) {
+    margin-bottom: 5px;
+}
+/* Style for section headings */
+.section-heading {
+    
+    margin-top: 60px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+}
+
